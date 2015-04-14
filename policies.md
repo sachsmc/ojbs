@@ -36,6 +36,8 @@ If the decision is to accept, a third reviewer is brought in to review the code 
 
 ## Publication
 
+All articles must be rendered using pdflatex with the ojbs.cls document class. Since we are volunteers, we cannot provide latex support to authors. We do provide templates in both latex and markdown, the latter of which is very easy to use and learn. A tutorial for preparing manuscripts in markdown is being developed. 
+
 Every 10 articles is published as a volume. Each article is published as an issue, and there are no page limits. We do encourage authors to be focused and concise, and recognize that extremely lengthy articles (more than 20 rendered pages) may delay the review process. 
 
 
