@@ -1,0 +1,69 @@
+---
+title: 'Lorem ipsum dolor sit amet'
+shorttitle: 'Lorem ipsum dolor sit amet'
+plaintitle: 'Lorem ipsum dolor sit amet'
+author:
+- name: Michael C. Sachs
+  affil: Biometric Research Branch, DCTD, NCI
+- name: Second Author
+  affil: Affiliation
+address:
+- Michael C. Sachs
+- 9609 Medical Center Drive, MSC 9735
+- Bethesda, MD 20892
+- "telephone: 240-276-7888"
+email: michael.sachs@nih.gov
+abstract: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus lectus leo, quis porta lacus dignissim eget. Sed porta, ipsum facilisis lacinia vulputate, neque nisi sagittis ligula, eget porttitor odio sem dictum felis. Duis rutrum sed leo sed tristique. Suspendisse quis nisl erat. Curabitur ac lorem nulla. Aliquam erat volutpat. '
+keywords: ROC curves; graphics; interactive; plots
+bibliography: test
+clsoption: article
+...
+
+
+
+# Introduction
+
+## About ROC Curves
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus lectus leo, quis porta lacus dignissim eget. Sed porta, ipsum facilisis lacinia vulputate, neque nisi sagittis ligula, eget porttitor odio sem dictum felis. Duis rutrum sed leo sed tristique. Suspendisse quis nisl erat. Curabitur ac lorem nulla. Aliquam erat volutpat. Integer vitae erat et augue vulputate eleifend ut a diam. Nam commodo, urna id ullamcorper dictum, quam quam posuere turpis, at cursus sem odio eu risus.
+
+Sed maximus volutpat ultricies. Nullam gravida enim sit amet laoreet tristique. Sed et lectus euismod, dictum tellus in, mattis risus. Mauris in dapibus ex. Aliquam vitae luctus metus, sed semper nunc. Integer sit amet elementum libero. Cras blandit ultricies arcu, sed imperdiet tortor porttitor vitae. Quisque mattis consectetur sagittis. Phasellus nec eros elementum, facilisis tortor id, consectetur lorem. Cras fringilla auctor arcu, sit amet placerat libero volutpat sit amet. Integer sem sapien, fringilla ac nibh in, semper tempus metus. Donec malesuada quam ac lobortis semper.
+
+Ut quis scelerisque augue. Aenean ut mauris ac orci volutpat vestibulum at a erat. Duis nisi quam, fermentum eu enim sed, sollicitudin egestas nunc. Duis eget tortor in tortor consectetur dapibus at at lacus. Ut justo tortor, congue posuere enim ac, dapibus commodo leo. In sit amet felis sed magna maximus placerat. Curabitur tincidunt tellus ut rhoncus egestas. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pharetra lorem est, quis mattis libero placerat in. Nam facilisis consequat neque, eu tempus nisi dictum quis. Donec eget felis viverra, aliquet lorem iaculis, bibendum mi. Pellentesque quis vulputate turpis. Nulla eget lorem placerat, tempor dolor at, pulvinar libero. Maecenas ut ornare velit. Duis et accumsan risus, in porta enim. Nam dictum neque felis, a facilisis eros suscipit non. Maecenas et pharetra tellus. Suspendisse euismod est in ante vulputate rhoncus. Donec pellentesque purus vel commodo efficitur. In eget fringilla turpis.
+
+Nullam mollis massa ac elit cursus suscipit. Integer et ipsum magna. Etiam luctus nisi ut nunc eleifend molestie. Cras et elit ornare, accumsan lorem eget, sodales ex. Proin ullamcorper at enim ac congue. Suspendisse purus nisi, laoreet ut metus eu, dapibus mollis sapien. Aliquam erat volutpat. Phasellus tincidunt ac dui a mattis. Praesent dictum venenatis turpis id vestibulum. Fusce ac diam suscipit, tempus quam eu, pharetra turpis. Donec vehicula ultrices felis, ac gravida felis tincidunt non. Duis non pellentesque risus. Nullam id neque ultricies, vehicula enim vitae, fermentum augue. In eleifend, sapien non imperdiet interdum, nisl nunc ultrices nunc, sed congue est augue quis tortor.
+
+## Design Considerations
+
+Ut quis scelerisque augue. Aenean ut mauris ac orci volutpat vestibulum at a erat. Duis nisi quam, fermentum eu enim sed, sollicitudin egestas nunc. Duis eget tortor in tortor consectetur dapibus at at lacus. Ut justo tortor, congue posuere enim ac, dapibus commodo leo. In sit amet felis sed magna maximus placerat. Curabitur tincidunt tellus ut rhoncus egestas. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pharetra lorem est, quis mattis libero placerat in. Nam facilisis consequat neque, eu tempus nisi dictum quis. Donec eget felis viverra, aliquet lorem iaculis, bibendum mi. Pellentesque quis vulputate turpis. Nulla eget lorem placerat, tempor dolor at, pulvinar libero. Maecenas ut ornare velit. Duis et accumsan risus, in porta enim. Nam dictum neque felis, a facilisis eros suscipit non. Maecenas et pharetra tellus. Suspendisse euismod est in ante vulputate rhoncus. Donec pellentesque purus vel commodo efficitur. In eget fringilla turpis.
+
+Nullam mollis massa ac elit cursus suscipit. Integer et ipsum magna. Etiam luctus nisi ut nunc eleifend molestie. Cras et elit ornare, accumsan lorem eget, sodales ex. Proin ullamcorper at enim ac congue. Suspendisse purus nisi, laoreet ut metus eu, dapibus mollis sapien. Aliquam erat volutpat. Phasellus tincidunt ac dui a mattis. Praesent dictum venenatis turpis id vestibulum. Fusce ac diam suscipit, tempus quam eu, pharetra turpis. Donec vehicula ultrices felis, ac gravida felis tincidunt non. Duis non pellentesque risus. Nullam id neque ultricies, vehicula enim vitae, fermentum augue. In eleifend, sapien non imperdiet interdum, nisl nunc ultrices nunc, sed congue est augue quis tortor.
+
+## Existing Methods
+
+Ut quis scelerisque augue. Aenean ut mauris ac orci volutpat vestibulum at a erat. Duis nisi quam, fermentum eu enim sed, sollicitudin egestas nunc. Duis eget tortor in tortor consectetur dapibus at at lacus. Ut justo tortor, congue posuere enim ac, dapibus commodo leo. In sit amet felis sed magna maximus placerat. Curabitur tincidunt tellus ut rhoncus egestas. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pharetra lorem est, quis mattis libero placerat in. Nam facilisis consequat neque, eu tempus nisi dictum quis. Donec eget felis viverra, aliquet lorem iaculis, bibendum mi. Pellentesque quis vulputate turpis. Nulla eget lorem placerat, tempor dolor at, pulvinar libero. Maecenas ut ornare velit. Duis et accumsan risus, in porta enim. Nam dictum neque felis, a facilisis eros suscipit non. Maecenas et pharetra tellus. Suspendisse euismod est in ante vulputate rhoncus. Donec pellentesque purus vel commodo efficitur. In eget fringilla turpis.
+
+Nullam mollis massa ac elit cursus suscipit. Integer et ipsum magna. Etiam luctus nisi ut nunc eleifend molestie. Cras et elit ornare, accumsan lorem eget, sodales ex. Proin ullamcorper at enim ac congue. Suspendisse purus nisi, laoreet ut metus eu, dapibus mollis sapien. Aliquam erat volutpat. Phasellus tincidunt ac dui a mattis. Praesent dictum venenatis turpis id vestibulum. Fusce ac diam suscipit, tempus quam eu, pharetra turpis. Donec vehicula ultrices felis, ac gravida felis tincidunt non. Duis non pellentesque risus. Nullam id neque ultricies, vehicula enim vitae, fermentum augue. In eleifend, sapien non imperdiet interdum, nisl nunc ultrices nunc, sed congue est augue quis tortor.
+
+## Motivation
+
+Ut quis scelerisque augue. Aenean ut mauris ac orci volutpat vestibulum at a erat. Duis nisi quam, fermentum eu enim sed, sollicitudin egestas nunc. Duis eget tortor in tortor consectetur dapibus at at lacus. Ut justo tortor, congue posuere enim ac, dapibus commodo leo. In sit amet felis sed magna maximus placerat. Curabitur tincidunt tellus ut rhoncus egestas. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pharetra lorem est, quis mattis libero placerat in. Nam facilisis consequat neque, eu tempus nisi dictum quis. Donec eget felis viverra, aliquet lorem iaculis, bibendum mi. Pellentesque quis vulputate turpis. Nulla eget lorem placerat, tempor dolor at, pulvinar libero. Maecenas ut ornare velit. Duis et accumsan risus, in porta enim. Nam dictum neque felis, a facilisis eros suscipit non. Maecenas et pharetra tellus. Suspendisse euismod est in ante vulputate rhoncus. Donec pellentesque purus vel commodo efficitur. In eget fringilla turpis.
+
+Nullam mollis massa ac elit cursus suscipit. Integer et ipsum magna. Etiam luctus nisi ut nunc eleifend molestie. Cras et elit ornare, accumsan lorem eget, sodales ex. Proin ullamcorper at enim ac congue. Suspendisse purus nisi, laoreet ut metus eu, dapibus mollis sapien. Aliquam erat volutpat. Phasellus tincidunt ac dui a mattis. Praesent dictum venenatis turpis id vestibulum. Fusce ac diam suscipit, tempus quam eu, pharetra turpis. Donec vehicula ultrices felis, ac gravida felis tincidunt non. Duis non pellentesque risus. Nullam id neque ultricies, vehicula enim vitae, fermentum augue. In eleifend, sapien non imperdiet interdum, nisl nunc ultrices nunc, sed congue est augue quis tortor.
+
+\nocite{*}
+
+Bibliography 
+===============
+
+
+
+
