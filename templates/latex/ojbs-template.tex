@@ -1,0 +1,101 @@
+\documentclass[article]{ojbs}  %% use the draft option for submission, article for publication
+
+\usepackage[utf8]{inputenc}
+%\usepackage{tikz}
+%\usepackage{natbib}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% declarations for ojbs.cls %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%% almost as usual
+\author{		Michael C. Sachs\\Biometric Research Branch, DCTD, NCI
+	\And Second Author\\Affiliation	} % Separate by \And
+
+\title{Lorem ipsum dolor sit amet}
+
+%% for pretty printing and a nice hypersummary also set:
+\Plainauthor{ Michael C. Sachs, Second Author} %% comma-separated
+\Plaintitle{Lorem ipsum dolor sit amet} %% without formatting
+
+\Shorttitle{Lorem ipsum dolor sit amet} %% a short title (if necessary)
+%% an abstract and keywords
+\Abstract{
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus lectus leo, quis porta lacus dignissim eget. Sed porta, ipsum facilisis lacinia vulputate, neque nisi sagittis ligula, eget porttitor odio sem dictum felis. Duis rutrum sed leo sed tristique. Suspendisse quis nisl erat. Curabitur ac lorem nulla.
+}
+\Keywords{ROC curves; graphics; interactive; plots}
+\Plainkeywords{ROC curves; graphics; interactive; plots} %% without formatting
+%% at least one keyword must be supplied
+
+%% publication information
+%% NOTE: Typically, this can be left commented and will be filled out by the technical editor
+%% \Volume{50}
+%% \Issue{9}
+%% \Month{June}
+%% \Year{2012}
+%% \Submitdate{2012-06-04}
+%% \Acceptdate{2012-06-04}
+
+%% The address of (at least) one author should be given
+%% in the following format:
+\Address{
+    Michael C. Sachs\\
+    9609 Medical Center Drive, MSC 9735\\
+    Bethesda, MD 20892\\
+    telephone: 240-276-7888  \\\email{michael.sachs@nih.gov}
+}
+%% It is also possible to add a telephone and fax number
+%% before the e-mail in the following format:
+%% Telephone: +43/512/507-7103
+%% Fax: +43/512/507-2851
+
+%% end of declarations %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+\section{Introduction}\label{introduction}
+
+\subsection{About ROC curves}\label{about-roc-curves}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus lectus leo, quis porta lacus dignissim eget. Sed porta, ipsum facilisis lacinia vulputate, neque nisi sagittis ligula, eget porttitor odio sem dictum felis. Duis rutrum sed leo sed tristique. Suspendisse quis nisl erat. Curabitur ac lorem nulla. Aliquam erat volutpat. Integer vitae erat et augue vulputate eleifend ut a diam. Nam commodo, urna id ullamcorper dictum, quam quam posuere turpis, at cursus sem odio eu risus.
+
+Sed maximus volutpat ultricies. Nullam gravida enim sit amet laoreet tristique. Sed et lectus euismod, dictum tellus in, mattis risus. Mauris in dapibus ex. Aliquam vitae luctus metus, sed semper nunc. Integer sit amet elementum libero. Cras blandit ultricies arcu, sed imperdiet tortor porttitor vitae. Quisque mattis consectetur sagittis. Phasellus nec eros elementum, facilisis tortor id, consectetur lorem. Cras fringilla auctor arcu, sit amet placerat libero volutpat sit amet. Integer sem sapien, fringilla ac nibh in, semper tempus metus. Donec malesuada quam ac lobortis semper.
+
+Ut quis scelerisque augue. Aenean ut mauris ac orci volutpat vestibulum at a erat. Duis nisi quam, fermentum eu enim sed, sollicitudin egestas nunc. Duis eget tortor in tortor consectetur dapibus at at lacus. Ut justo tortor, congue posuere enim ac, dapibus commodo leo. In sit amet felis sed magna maximus placerat. Curabitur tincidunt tellus ut rhoncus egestas. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pharetra lorem est, quis mattis libero placerat in. Nam facilisis consequat neque, eu tempus nisi dictum quis. Donec eget felis viverra, aliquet lorem iaculis, bibendum mi. Pellentesque quis vulputate turpis. Nulla eget lorem placerat, tempor dolor at, pulvinar libero. Maecenas ut ornare velit. Duis et accumsan risus, in porta enim. Nam dictum neque felis, a facilisis eros suscipit non. Maecenas et pharetra tellus. Suspendisse euismod est in ante vulputate rhoncus. Donec pellentesque purus vel commodo efficitur. In eget fringilla turpis.
+
+Nullam mollis massa ac elit cursus suscipit. Integer et ipsum magna. Etiam luctus nisi ut nunc eleifend molestie. Cras et elit ornare, accumsan lorem eget, sodales ex. Proin ullamcorper at enim ac congue. Suspendisse purus nisi, laoreet ut metus eu, dapibus mollis sapien. Aliquam erat volutpat. Phasellus tincidunt ac dui a mattis. Praesent dictum venenatis turpis id vestibulum. Fusce ac diam suscipit, tempus quam eu, pharetra turpis. Donec vehicula ultrices felis, ac gravida felis tincidunt non. Duis non pellentesque risus. Nullam id neque ultricies, vehicula enim vitae, fermentum augue. In eleifend, sapien non imperdiet interdum, nisl nunc ultrices nunc, sed congue est augue quis tortor.
+
+\subsection{Design considerations}\label{design-considerations}
+
+Ut quis scelerisque augue. Aenean ut mauris ac orci volutpat vestibulum at a erat. Duis nisi quam, fermentum eu enim sed, sollicitudin egestas nunc. Duis eget tortor in tortor consectetur dapibus at at lacus. Ut justo tortor, congue posuere enim ac, dapibus commodo leo. In sit amet felis sed magna maximus placerat. Curabitur tincidunt tellus ut rhoncus egestas. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pharetra lorem est, quis mattis libero placerat in. Nam facilisis consequat neque, eu tempus nisi dictum quis. Donec eget felis viverra, aliquet lorem iaculis, bibendum mi. Pellentesque quis vulputate turpis. Nulla eget lorem placerat, tempor dolor at, pulvinar libero. Maecenas ut ornare velit. Duis et accumsan risus, in porta enim. Nam dictum neque felis, a facilisis eros suscipit non. Maecenas et pharetra tellus. Suspendisse euismod est in ante vulputate rhoncus. Donec pellentesque purus vel commodo efficitur. In eget fringilla turpis.
+
+Nullam mollis massa ac elit cursus suscipit. Integer et ipsum magna. Etiam luctus nisi ut nunc eleifend molestie. Cras et elit ornare, accumsan lorem eget, sodales ex. Proin ullamcorper at enim ac congue. Suspendisse purus nisi, laoreet ut metus eu, dapibus mollis sapien. Aliquam erat volutpat. Phasellus tincidunt ac dui a mattis. Praesent dictum venenatis turpis id vestibulum. Fusce ac diam suscipit, tempus quam eu, pharetra turpis. Donec vehicula ultrices felis, ac gravida felis tincidunt non. Duis non pellentesque risus. Nullam id neque ultricies, vehicula enim vitae, fermentum augue. In eleifend, sapien non imperdiet interdum, nisl nunc ultrices nunc, sed congue est augue quis tortor.
+\subsection{Existing plotting
+software}\label{existing-plotting-software}
+Ut quis scelerisque augue. Aenean ut mauris ac orci volutpat vestibulum at a erat. Duis nisi quam, fermentum eu enim sed, sollicitudin egestas nunc. Duis eget tortor in tortor consectetur dapibus at at lacus. Ut justo tortor, congue posuere enim ac, dapibus commodo leo. In sit amet felis sed magna maximus placerat. Curabitur tincidunt tellus ut rhoncus egestas. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pharetra lorem est, quis mattis libero placerat in. Nam facilisis consequat neque, eu tempus nisi dictum quis. Donec eget felis viverra, aliquet lorem iaculis, bibendum mi. Pellentesque quis vulputate turpis. Nulla eget lorem placerat, tempor dolor at, pulvinar libero. Maecenas ut ornare velit. Duis et accumsan risus, in porta enim. Nam dictum neque felis, a facilisis eros suscipit non. Maecenas et pharetra tellus. Suspendisse euismod est in ante vulputate rhoncus. Donec pellentesque purus vel commodo efficitur. In eget fringilla turpis.
+
+Nullam mollis massa ac elit cursus suscipit. Integer et ipsum magna. Etiam luctus nisi ut nunc eleifend molestie. Cras et elit ornare, accumsan lorem eget, sodales ex. Proin ullamcorper at enim ac congue. Suspendisse purus nisi, laoreet ut metus eu, dapibus mollis sapien. Aliquam erat volutpat. Phasellus tincidunt ac dui a mattis. Praesent dictum venenatis turpis id vestibulum. Fusce ac diam suscipit, tempus quam eu, pharetra turpis. Donec vehicula ultrices felis, ac gravida felis tincidunt non. Duis non pellentesque risus. Nullam id neque ultricies, vehicula enim vitae, fermentum augue. In eleifend, sapien non imperdiet interdum, nisl nunc ultrices nunc, sed congue est augue quis tortor.
+
+\subsection{Motivation}\label{motivation}
+
+Ut quis scelerisque augue. Aenean ut mauris ac orci volutpat vestibulum at a erat. Duis nisi quam, fermentum eu enim sed, sollicitudin egestas nunc. Duis eget tortor in tortor consectetur dapibus at at lacus. Ut justo tortor, congue posuere enim ac, dapibus commodo leo. In sit amet felis sed magna maximus placerat. Curabitur tincidunt tellus ut rhoncus egestas. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pharetra lorem est, quis mattis libero placerat in. Nam facilisis consequat neque, eu tempus nisi dictum quis. Donec eget felis viverra, aliquet lorem iaculis, bibendum mi. Pellentesque quis vulputate turpis. Nulla eget lorem placerat, tempor dolor at, pulvinar libero. Maecenas ut ornare velit. Duis et accumsan risus, in porta enim. Nam dictum neque felis, a facilisis eros suscipit non. Maecenas et pharetra tellus. Suspendisse euismod est in ante vulputate rhoncus. Donec pellentesque purus vel commodo efficitur. In eget fringilla turpis.
+
+Nullam mollis massa ac elit cursus suscipit. Integer et ipsum magna. Etiam luctus nisi ut nunc eleifend molestie. Cras et elit ornare, accumsan lorem eget, sodales ex. Proin ullamcorper at enim ac congue. Suspendisse purus nisi, laoreet ut metus eu, dapibus mollis sapien. Aliquam erat volutpat. Phasellus tincidunt ac dui a mattis. Praesent dictum venenatis turpis id vestibulum. Fusce ac diam suscipit, tempus quam eu, pharetra turpis. Donec vehicula ultrices felis, ac gravida felis tincidunt non. Duis non pellentesque risus. Nullam id neque ultricies, vehicula enim vitae, fermentum augue. In eleifend, sapien non imperdiet interdum, nisl nunc ultrices nunc, sed congue est augue quis tortor.
+
+\nocite{*}
+
+\bibliography{test}
+
+%% no need for \bibliographystyle
+%% please include a doi in all bibtex entries
+
+\end{document}
